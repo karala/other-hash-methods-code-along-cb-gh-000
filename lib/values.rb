@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values
+  array = []
+  array << groceries.values
+  return array
 end
